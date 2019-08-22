@@ -1,4 +1,51 @@
-header {
+* {
     text-align: center;
-    background-color: lightcoral
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: 150px;
+}
+
+header {
+ /* text-align: center; */
+    background-color: lightcoral;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+nav {
+    /* text-align: center; */
+    background-color: lightcoral;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.clearfix {
+    height: 400px;
+    background-color: lightblue;
+}
+#section {
+    /* text-align: center; */
+    background-color: #ebebeb;
+    width: 60%;
+    margin: left;
+    width: 495px;
+}
+
+#aside {
+    /* text-align: center; */
+    background-color: #ebebeb;
+    width: 40%;
+}
+
+footer {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: lightcoral;
+    clear: both;
 }

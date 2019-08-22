@@ -14,38 +14,77 @@ body {
 header {
  /* text-align: center; */
     background-color: lightcoral;
+    height: 40px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 nav {
     /* text-align: center; */
+    height: 40px;
     background-color: lightcoral;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 .clearfix {
-    height: 400px;
-    background-color: lightblue;
+    height: 300px;
+    /* background-color: lightblue; */
 }
+
 #section {
-    /* text-align: center; */
+    text-align: center;
+    color:#777;
     background-color: #ebebeb;
     width: 60%;
     margin: left;
     width: 495px;
+    z-index: 1;
+    height: 100%;
+    float: left;
 }
 
+#article {
+    color:#777;
+    background-color: lightblue;
+    width: 478px;
+    height: 70%;
+    margin-left: 8.5px;
+    margin-top: 60px;
+}
+
+#h {
+    color:#777;
+    background-color: lightcoral;
+    width: 450px;
+    height: 25%;
+    margin-top: 50px;
+    margin-left: 13.5px;
+}
+
+#p {
+    color:#777;
+    background-color: lightcoral;
+    width: 450px;
+    height: 25%;
+    margin-top: 15px;
+    margin-left: 13.5px;
+
+}
 #aside {
-    /* text-align: center; */
-    background-color: #ebebeb;
-    width: 40%;
+    color:#777;
+    background-color: lightcoral;
+    width: 446px;
+    z-index: 1;
+    height: 100%;
+    float: right;
 }
 
 footer {
+    height: 40px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     background-color: lightcoral;
-    clear: both;
+    clear: both; 
 }
